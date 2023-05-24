@@ -57,7 +57,7 @@ def kde(x):
     return kde
 
 # Define the mutual information function
-def mutual_info(x, y, n=50):
+def mutual_info(x, y, n=500):
     x=x[:n]
     y=y[:n]
     # print("y shape:", y.shape)
